@@ -445,4 +445,7 @@ footer .tags a{
     footer .tags a{
         width: 40vw;
     }
+    body{
+        width: 100dvw;
+    }
 }
