@@ -1,13 +1,17 @@
 :root{
     --color:rgb(45, 43, 43);
 }
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: var(--color);
-    overflow: auto;   
+}
+.main{
+    width: 100vw;
+    overflow-x: hidden;
 }
 h1{   
     font-size: 3rem;
@@ -444,8 +448,5 @@ footer .tags a{
     }
     footer .tags a{
         width: 40vw;
-    }
-    body{
-        width: 100dvw;
     }
 }
