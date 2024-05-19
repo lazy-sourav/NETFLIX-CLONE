@@ -1,15 +1,13 @@
 :root{
     --color:rgb(45, 43, 43);
 }
-
 body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: var(--color);
-   /* overflow: hidden;
-   width: 100%; */
+    overflow: auto;   
 }
 h1{   
     font-size: 3rem;
